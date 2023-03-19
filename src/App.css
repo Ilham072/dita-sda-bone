@@ -1,38 +1,48 @@
-.App {
+.sidenav {
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  left:30;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  padding-top: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidenav h5 {
+  padding: 6px 25px 15px 32px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sidenav a {
+  padding: 6px 31px 20px 32px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #242424;
+  display: block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sidenav a:hover {
+  color: #4692FD;
 }
 
-.App-link {
-  color: #61dafb;
+.sidenav img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainContent {
+  margin-left: 160px;
+  font-size: 28px;
+  padding: 0px 10px;
+  background-color: #F7F7F7;
+  height: 500px;
+  width: 100%;
 }
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
