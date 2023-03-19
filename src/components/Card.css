@@ -1,0 +1,48 @@
+.card {
+    background-color: #FFFFFF;
+    width: 310px;
+    height: 225px;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+.card-image{
+    margin: 0px;
+}
+
+.card-image img {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+div.card-content {
+    margin-top:10px;
+}
+
+.card-title {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 8px;
+}
+
+.card-button {
+    float: right;
+    margin-left: 110px;
+}
+
+.card-button button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+.card-button img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
