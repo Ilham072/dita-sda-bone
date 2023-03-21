@@ -6,19 +6,16 @@ const Card = () => {
     return (
         <div className="card">
             <div className="card-image">
-                <img src={padi} alt="Padi"/>
+                <img src={padi} alt="padi"/>
             </div>
             <div className="card-content">
-                <span className="card-title">Title</span>
-                <span className="card-button">
-                    <a href="#">
-                        <button>
-                            <img src={button}/>
-                        </button>
-                    </a>
-                </span>
-            </div>
-
+                <span>Title</span>
+                <a href="#">
+                    <button>
+                        <img src={button}/>
+                    </button>
+                </a>
+            </div>    
         </div>
     )
 }
