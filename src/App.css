@@ -33,11 +33,12 @@
 }
 
 .mainContent {
+  position: absolute;
   margin-left: 160px;
   font-size: 28px;
-  padding: 0px 10px;
+  padding: 0px;
   background-color: #F7F7F7;
-  height: 500px;
+  height: 100%;
   width: 100%;
 }
 

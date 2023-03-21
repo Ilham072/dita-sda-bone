@@ -1,5 +1,6 @@
 import './App.css';
 import Card from './components/Card.js';
+import CardNews from './components/CardNews.js';
 import Dita from './images/dita-logo.jpg';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
 
       <div className="mainContent">
           <Card/>
+          <CardNews/>
       </div>
     </div>
   );
