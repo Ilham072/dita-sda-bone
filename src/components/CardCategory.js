@@ -1,18 +1,18 @@
 import React from 'react';
 import './CardCategory.css';
 
-const CardPertanianCategory = (props) => {
+const CardCategory = (props) => {
     return (
-        <div className="cardPertanianCategory">
+        <div className="cardCategory">
             <a href="#">
-                <div className="cardPertanianCategory-content">
+                <div className="cardCategory-content">
                     <div>
                         <p id="sum">{props.category.count}</p>
                         <p id="title">{props.category.name}</p>
                     </div>
                     <div style={
                         {backgroundColor:props.category.bgColor}
-                    } className="cardPertanianCategory-logo">
+                    } className="cardCategory-logo">
                         <img src={props.category.image}/>
                     </div>
                 </div>
@@ -21,4 +21,4 @@ const CardPertanianCategory = (props) => {
     )
 }
 
-export default CardPertanianCategory;
+export default CardCategory;
