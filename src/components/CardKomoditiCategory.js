@@ -2,7 +2,7 @@ import React from 'react';
 import './CardKomoditiCategory.css';
 import button from './../images/Button2.svg';
 
-const CardCategory = (props) => {
+const CardKomoditiCategory = (props) => {
     return (
         <div className="CardCategory">
             <div className="CardCategory-content">
@@ -21,4 +21,4 @@ const CardCategory = (props) => {
     )
 }
 
-export default CardCategory;
+export default CardKomoditiCategory;
