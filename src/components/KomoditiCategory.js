@@ -1,6 +1,6 @@
 import React from "react";
-import komoditi from "./komoditi.js";
-import CardCategory from "./CardCategory.js";
+import komoditi from "./kategori_komoditi.js";
+import CardCategory from "./CardKomoditiCategory.js";
 
 const KomoditiCategory = () => {
     return (

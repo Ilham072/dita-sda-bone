@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.js';
-import category from './pertanian_category.js';
-import CardPertanianCategory from './CardPertanianCategory.js';
+import pertanian from './kategori_pertanian.js';
+import CardPertanianCategory from './CardCategory.js';
 
 const PertanianCategory = () => {
     return (
@@ -11,9 +10,9 @@ const PertanianCategory = () => {
                 flexDirection: 'row',
             }
         }>
-            <CardPertanianCategory category={category[0]} logo={logo.tanamanPangan} />
-            <CardPertanianCategory category={category[1]} logo={logo.hortikultura} />
-            <CardPertanianCategory category={category[2]} logo={logo.perkebunan} />
+            <CardPertanianCategory category={pertanian.tanamanPangan}/>
+            <CardPertanianCategory category={pertanian.hortikultura}/>
+            <CardPertanianCategory category={pertanian.perkebunan}/>
           </div>
     )
 }
