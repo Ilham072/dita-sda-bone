@@ -2,6 +2,10 @@ import './App.css';
 import Card from './components/Card.js';
 import CardNews from './components/CardNews.js';
 import Dita from './images/dita-logo.jpg';
+import PariwisataCategory from './components/PariwisataCategory.js';
+import PertanianCategory from './components/PertanianCategory.js';
+import KomoditiCategory from './components/KomoditiCategory.js';
+
 
 function App() {
   return (
@@ -24,6 +28,9 @@ function App() {
       <div className="mainContent">
           <Card/>
           <CardNews/>
+          <PertanianCategory/>
+          <PariwisataCategory/>
+          <KomoditiCategory/>
       </div>
     </div>
   );
