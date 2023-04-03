@@ -1,6 +1,5 @@
 import React from 'react';
 import './CardKomoditiCategory.css';
-import button from './../images/Button2.svg';
 
 const CardKomoditiCategory = (props) => {
     return (
@@ -14,7 +13,7 @@ const CardKomoditiCategory = (props) => {
                     <p id="Title">{props.komoditi.name}</p>
                 </div>
                 <a href="#" className="CardKomoditiCategory-button">
-                    <img src={button}/>
+                    <img src="images/button/Button2.svg"/>
                 </a>
             </div>
         </div>

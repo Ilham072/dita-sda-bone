@@ -1,27 +1,24 @@
 import React from 'react';
-import pertanian from './../images/pertanian.jpg';
-import button from './../images/button1.png';
-import pertanian_logo from './../images/pertanian_logo.svg';
 import './CardNews.css';
 
-const CardNews = () => {
+const CardNews = (props) => {
     return (
         <div className="CardNews">
             <div className="CardNews-category">
-                <img src={pertanian_logo}/>
-                <span>Pertanian</span>
+                <img src={props.news.categoryLogo}/>
+                <span>{props.news.category}</span>
             </div>
             <div className="CardNews-image">
-                <img src={pertanian} alt="Pertanian" />
+                <img src={props.news.image} alt={props.news.category}/>
             </div>
             <div className="CardNews-content">
                 <div className="CardNews-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet elementum dignissim.
+                {props.news.description}
                 </div>
                 <div className="card-button">
                     <a href="#">
                         <button>
-                            <img src={button}/>
+                            <img src="images/button/Button1.svg"/>
                         </button>
                     </a>
                 </div>

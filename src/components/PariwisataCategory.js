@@ -1,6 +1,6 @@
 import React from "react";
-import pariwisata from "./kategori_pariwisata.js";
-import CardCategory from "./CardCategory.js";
+import kategoriPariwisata from './kategori_pariwisata.json';
+import CardCategory from "./Card/CardCategory.js";
 
 const PariwisataCategory = () => {
     return (
@@ -10,9 +10,13 @@ const PariwisataCategory = () => {
                 flexDirection: 'row',
             }
         }>
-            <CardCategory category={pariwisata.wisataAlam}/>
-            <CardCategory category={pariwisata.wisataBudaya}/>
-            <CardCategory category={pariwisata.wisataPanorama}/>  
+            {
+                kategoriPariwisata && kategoriPariwisata.map(item => {
+                    return (
+                        <CardCategory key={item.id} category={item}/>
+                    )
+                })
+            }
         </div>
     )
 }

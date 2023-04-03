@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "category": "Pertanian",
+        "categoryLogo": "images/logo_komoditi/pertanian_logo.svg",
+        "image": "images/news/pertanian.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet elementum dignissim." 
+    },
+    {
+        "id": 2,
+        "category": "Peternakan",
+        "categoryLogo": "images/logo_komoditi/peternakan_logo.svg",
+        "image": "images/news/peternakan.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet elementum dignissim." 
+    },
+    {
+        "id": 3,
+        "category": "Perikanan",
+        "categoryLogo": "images/logo_komoditi/perikanan_logo.svg",
+        "image": "images/news/perikanan.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet elementum dignissim." 
+    },
+    {
+        "id": 4,
+        "category": "Perindustrian",
+        "categoryLogo": "images/logo_komoditi/perindustrian_logo.svg",
+        "image": "images/news/perindustrian.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet elementum dignissim." 
+    },
+    {
+        "id": 5,
+        "category": "Pariwisata",
+        "categoryLogo": "images/logo_komoditi/pariwisata_logo.svg",
+        "image": "images/news/pariwisata.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet elementum dignissim." 
+    }
+]
