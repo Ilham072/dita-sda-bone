@@ -1,6 +1,5 @@
 import React from 'react';
-import pertanian from './komoditi_pertanian.json';
-import Card from './Card.js';
+import Card from './Card/Card.js';
 
 const Komoditi = (props) => {
     return (

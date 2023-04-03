@@ -1,13 +1,11 @@
 import React from "react";
 import './CardPariwisata.css';
-import location_logo from './../images/location_logo.svg';
-import button from './../images/Button1.svg'; 
 
 const CardPariwisata = (props) => {
     return (
         <div className="CardPariwisata">
             <div className="CardPariwisata-location">
-                <img src={location_logo}/>
+                <img src="images/logo_pariwisata/location_logo.svg"/>
                 <p>{props.pariwisata.nameLocation}</p>
             </div>
             <div className="CardPariwisata-image">
@@ -16,7 +14,7 @@ const CardPariwisata = (props) => {
             <div className="CardPariwisata-content">
                 <p>{props.pariwisata.name}</p>
                 <a href="#">
-                    <img src={button}/>
+                    <img src="images/button/Button1.svg"/>
                 </a>
             </div>
         </div>

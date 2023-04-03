@@ -1,6 +1,6 @@
 import React from 'react';
 import news from './news.json';
-import CardNews from './CardNews.js';
+import CardNews from './Card/CardNews.js';
 
 const News = () => {
     return (

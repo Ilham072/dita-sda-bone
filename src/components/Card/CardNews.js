@@ -1,5 +1,4 @@
 import React from 'react';
-import button from './../images/Button1.svg';
 import './CardNews.css';
 
 const CardNews = (props) => {

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nameLocation": "Kec. Tanete Riattang",
+        "name": "Taman Arung Palakka",
+        "image": "images/pariwisata/taman_arung_palakka.png"
+    },
+    {
+        "id": 2,
+        "nameLocation": "Kec. Tanete Riattang",
+        "name": "Lapangan Merdeka",
+        "image": "images/pariwisata/lapangan_merdeka.png"
+    },
+    {
+        "id": 3,
+        "nameLocation": "Kec. Tanete Riattang",
+        "name": "Stadion Lapatau",
+        "image": "images/pariwisata/stadion_lapatau.png"
+    }
+]

@@ -1,6 +1,6 @@
 import React from 'react';
-import pertanian from './kategori_pertanian.js';
-import CardCategory from './CardCategory.js';
+import kategoriPertanian from './kategori_pertanian.json';
+import CardCategory from './Card/CardCategory.js';
 
 const PertanianCategory = () => {
     return (
@@ -10,9 +10,13 @@ const PertanianCategory = () => {
                 flexDirection: 'row',
             }
         }>
-            <CardCategory category={pertanian.tanamanPangan}/>
-            <CardCategory category={pertanian.hortikultura}/>
-            <CardCategory category={pertanian.perkebunan}/>
+            {
+                kategoriPertanian && kategoriPertanian.map(item => {
+                    return (
+                        <CardCategory key={item.id} category={item}/>
+                    )
+                })
+            }
           </div>
     )
 }

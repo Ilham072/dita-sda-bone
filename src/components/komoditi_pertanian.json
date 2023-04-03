@@ -1,9 +1,11 @@
 [
     {
+        "id": 1,
         "name": "Jagung",
         "image": "images/pertanian/jagung.jpg"
     },
     {
+        "id": 2,
         "name": "Kedelai",
         "image": "images/pertanian/kedelai.png"
     }

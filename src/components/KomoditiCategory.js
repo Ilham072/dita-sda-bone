@@ -1,6 +1,6 @@
 import React from "react";
-import komoditi from "./kategori_komoditi.js";
-import CardKomoditiCategory from "./CardKomoditiCategory.js";
+import CardKomoditiCategory from "./Card/CardKomoditiCategory.js";
+import kategoriKomdoti from './kategori_komoditi.json';
 
 const KomoditiCategory = () => {
     return (
@@ -12,11 +12,13 @@ const KomoditiCategory = () => {
                 flexBasis: '30%', 
             }
         }>
-            <CardKomoditiCategory komoditi={komoditi.pertanian}/>
-            <CardKomoditiCategory komoditi={komoditi.peternakan}/>
-            <CardKomoditiCategory komoditi={komoditi.perikanan}/>
-            <CardKomoditiCategory komoditi={komoditi.perindustrian}/>
-            <CardKomoditiCategory komoditi={komoditi.pariwisata}/>
+            {
+                kategoriKomdoti && kategoriKomdoti.map(item => {
+                   return (
+                    <CardKomoditiCategory key={item.id} komoditi={item}/>
+                   ) 
+                })
+            }
         </div>
     )
 }
