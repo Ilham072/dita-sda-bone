@@ -1,18 +1,16 @@
 import React from 'react';
-import padi from './../images/padi.jpg';
-import button from './../images/button1.png';
 import './Card.css';
-const Card = () => {
+const Card = (props) => {
     return (
         <div className="card">
             <div className="card-image">
-                <img src={padi} alt="padi"/>
+                <img src={props.komoditi.image} alt={props.komoditi.name}/>
             </div>
             <div className="card-content">
-                <span>Title</span>
+                <span>{props.komoditi.name}</span>
                 <a href="#">
                     <button>
-                        <img src={button}/>
+                        <img src="images/button/Button1.svg"/>
                     </button>
                 </a>
             </div>    
